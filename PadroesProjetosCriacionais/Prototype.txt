@@ -1,0 +1,8 @@
+PROTOTYPE
+
+Contexto: Um sistema de edição de documentos onde usuários frequentemente precisam criar cópias de documentos existentes para fazer pequenas modificações sem alterar o original.
+
+Problema: Criar um documento do zero é custoso (carregar templates, configurações, etc). É mais eficiente copiar um documento já existente e modificar apenas o necessário.
+
+Solução: Usar o padrão Prototype com uma interface que declara o método clone, permitindo que objetos se copiem.
+
