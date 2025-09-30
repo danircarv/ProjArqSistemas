@@ -1,0 +1,10 @@
+BUILDER
+
+Contexto: Uma pizzaria precisa criar pizzas personalizadas onde cada cliente escolhe massa, queijo, pepperoni e outros ingredientes opcionais.
+
+Problema: Criar construtores para todas as combinações possíveis de ingredientes é impraticável. Um construtor com muitos parâmetros fica confuso (ex: Pizza(massa, queijo, pepperoni, azeitona, tomate...)).
+
+Solução: Usar o padrão Builder com uma interface que define as etapas de construção, permitindo diferentes implementações de builders.
+
+
+
